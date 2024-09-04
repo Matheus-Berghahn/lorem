@@ -1,3 +1,15 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // Exemplo: desabilitar uma regra específica
+    "react/react-in-jsx-scope": "off",
+
+    // Exemplo: ajustar a severidade de uma regra
+    "no-console": "warn",
+
+    // Exemplo: definir opções específicas para uma regra
+    "indent": ["error", 2],
+
+    // Adicione ou ajuste outras regras conforme necessário
+  }
 }

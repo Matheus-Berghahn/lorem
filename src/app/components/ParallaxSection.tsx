@@ -1,7 +1,7 @@
 // src/app/components/ParallaxSection.tsx
 import Image from 'next/image';
 import exampleImage from '../../../public/images/img_parallax.jpg'; // Substitua com o caminho para a sua imagem
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
 const ParallaxSection = () => {
@@ -16,21 +16,10 @@ const ParallaxSection = () => {
     visible: { opacity: 1, y: 0 },
   };
 
-  // Parallax effect using Framer Motion
-  const { scrollY } = useScroll();
-  const y = useTransform(scrollY, [0, 300], ['0%', '20%']); // Adjust the range as needed
-
   return (
     <section ref={ref} className="relative overflow-hidden h-[400px] md:h-[500px] lg:h-[600px]">
       {/* Background Parallax */}
-      <motion.div
-        className="absolute inset-0 w-full h-full bg-center bg-cover grayscale"
-        style={{
-          y, // Simulate parallax with Framer Motion
-          backgroundImage: `url(${exampleImage.src})`,
-          backgroundSize: 'cover',
-        }}
-      />
+      <div className="absolute inset-0 w-full h-full bg-fixed bg-center bg-cover parallax-bg grayscale" />
 
       {/* Conteúdo do Parallax */}
       <div className="relative z-10 flex items-center justify-start h-full px-6 md:px-10 lg:px-20 xl:px-40 pt-10">
@@ -57,10 +46,11 @@ const ParallaxSection = () => {
       </div>
 
       <style jsx>{`
-        @media (min-width: 768px) {
-          .parallax-bg {
-            background-attachment: fixed; // Applied only on larger screens
-          }
+        .parallax-bg {
+          background-image: url('${exampleImage.src}');
+          background-attachment: fixed;
+          background-position: center;
+          background-size: cover;
         }
       `}</style>
     </section>

@@ -16,7 +16,7 @@ export default function Home() {
     <Header></Header>
     <MainSection></MainSection>
     <InfoSection></InfoSection>
-    <ParallaxSection></ParallaxSection>
+    <div className="hidden md:block lg:block xl:block 2xl:block" ><ParallaxSection></ParallaxSection></div>
     <AboutSection></AboutSection>
     <SplitSection></SplitSection>
     <ColumnSection></ColumnSection>

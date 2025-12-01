@@ -41,7 +41,7 @@ const SplitSection = () => {
           variants={textVariants}
           transition={{ duration: 0.8, ease: 'easeOut' }}
         >
-          Lorem Ipsum
+          Fotografia com propósito.
         </motion.h2>
         <motion.p
           className="text-base md:text-lg mb-6 text-black md:w-2/3 text-justify"
@@ -50,7 +50,10 @@ const SplitSection = () => {
           variants={textVariants}
           transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Acreditamos em fotos que traduzem presença — sem exageros, sem sobrecarga, sem pose ensaiada. Apenas luz, composição e o momento certo.<br></br><br></br>
+Cada trabalho é construído com atenção ao que importa: textura, contraste, expressão e silêncio.<br></br><br></br>
+
+Nossas imagens não seguem tendência; elas registram aquilo que é verdadeiro, aquilo que permanece mesmo quando o tempo passa. É fotografia pensada para durar, não para acompanhar o fluxo.
         </motion.p>
         <motion.button
           className="mt-4 py-2 w-32 text-left md:text-right text-black hover:underline"
@@ -59,7 +62,7 @@ const SplitSection = () => {
           variants={textVariants}
           transition={{ duration: 0.8, ease: 'easeOut', delay: 0.4 }}
         >
-          Lorem Ipsum
+          
         </motion.button>
       </div>
     </section>

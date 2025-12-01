@@ -31,11 +31,13 @@ const InfoSection = () => {
         variants={textVariants}
         transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
       >
-        <p className="text-2xl md:text-3xl lg:text-4xl font-bold">First</p>
-        <p className="text-2xl md:text-3xl lg:text-4xl font-bold">Second</p>
-        <p className="mt-4 text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p className="text-2xl md:text-3xl lg:text-4xl font-bold">Capturando o que </p>
+        <p className="text-2xl md:text-3xl lg:text-4xl font-bold">os olhos veem</p>
+        <p className="mt-4 text-sm md:text-base">A fotografia é simples: luz, forma e intenção.<br></br>
+É sobre observar o que passa despercebido<br></br>
+e transformar isso em algo que permanece.</p>
         <button className="mt-4 py-2 w-32 text-left text-black hover:underline">
-        Lorem Ipsum
+        Retratos de momentos que falam por si.
         </button>
       </motion.div>
 
@@ -65,8 +67,7 @@ const InfoSection = () => {
             transition={{ duration: 0.8, ease: 'easeOut', delay: 0.6 }}
           >
             <p className="text-base md:text-lg">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-            </p>
+<b>A beleza está nos detalhes.</b> Cada imagem nasce do encontro entre composição, luz e precisão. Nosso trabalho é transformar cenas comuns em algo que carrega significado — seja em textura, contraste ou silêncio. Nada é aleatório: cada enquadramento é pensado para transmitir a sensação exata daquele instante.            </p>
           </motion.div>
           <motion.div
             className="w-full md:w-1/2 p-4 text-black"
@@ -76,8 +77,7 @@ const InfoSection = () => {
             transition={{ duration: 0.8, ease: 'easeOut', delay: 0.8 }}
           >
             <p className="text-base md:text-lg">
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
-            </p>
+<b>A fotografia não é sobre inventar. É sobre revelar.</b> Buscamos autenticidade em cada registro nada exagerado, nada artificial. Apenas a verdade do momento, capturada com técnica e intenção. Do preto e branco clássico às composições mais modernas, cada foto preserva aquilo que a memória tenta guardar, mas o tempo insiste em apagar.            </p>
           </motion.div>
         </div>
       </div>

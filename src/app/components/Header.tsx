@@ -55,7 +55,7 @@ const Header = () => {
           variants={textVariants}
           transition={{ duration: 0.8, ease: 'easeOut', delay: 0.6 }}
         >
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+          Imagens reais, cruas e atemporais, feitas para quem entende que uma boa foto fala mais do que qualquer discurso.
         </motion.p>
       </div>
     </header>

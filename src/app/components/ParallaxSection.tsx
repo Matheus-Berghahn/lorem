@@ -31,7 +31,7 @@ const ParallaxSection = () => {
             variants={textVariants}
             transition={{ duration: 0.8, ease: 'easeOut' }}
           >
-            Lorem Ipsum
+            Onde a imagem<br></br>fala por você.
           </motion.h1>
           <motion.p
             className="text-base md:text-lg lg:text-2xl mb-4 text-black text-justify drop-shadow-2xl"
@@ -40,8 +40,7 @@ const ParallaxSection = () => {
             variants={textVariants}
             transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </motion.p>
+Cada foto carrega um detalhe,uma intenção,<br></br>um instante que não volta.          </motion.p>
         </div>
       </div>
 
